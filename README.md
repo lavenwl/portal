@@ -12,8 +12,7 @@ Frontend and backend separated RBAC platform scaffold.
 
 ### Backend
 
-1. `cd backend`
-2. `mvn spring-boot:run`
+1. `bash ./scripts/backend.sh spring-boot:run`
 
 ### Frontend
 
@@ -28,6 +27,6 @@ Frontend and backend separated RBAC platform scaffold.
 
 ## Integration Smoke Test
 
-1. Start backend (`cd backend && mvn spring-boot:run`)
+1. Start backend (`bash ./scripts/backend.sh spring-boot:run`)
 2. Run smoke script (`./scripts/smoke_e2e.sh`)
 3. Full checklist: `docs/e2e-checklist.md`

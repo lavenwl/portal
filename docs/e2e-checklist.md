@@ -39,7 +39,6 @@
 
 ## 6. Regression Gate
 
-1. Backend: `cd backend && mvn -q test`.
+1. Backend: `bash ./scripts/backend.sh -q test`.
 2. Frontend: `cd frontend && npm run build`.
 3. CI workflow is green on target branch.
-

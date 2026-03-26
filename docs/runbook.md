@@ -2,9 +2,8 @@
 
 ## 1. Backend Local Run
 
-1. `cd backend`
-2. `mvn spring-boot:run`
-3. API base: `http://localhost:8080`
+1. `bash ./scripts/backend.sh spring-boot:run`
+2. API base: `http://localhost:8080`
 
 ## 2. Frontend Local Run
 

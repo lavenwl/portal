@@ -20,8 +20,7 @@ jobs:
           cache: maven
 
       - name: Backend Tests
-        working-directory: backend
-        run: mvn -q test
+        run: bash ./scripts/backend.sh -q test
 
   frontend:
     runs-on: ubuntu-latest

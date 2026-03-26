@@ -19,7 +19,7 @@ Validated modules:
 
 ## 3. Test Evidence
 
-1. Backend automated tests passed (`mvn -q test`)
+1. Backend automated tests passed (`bash ./scripts/backend.sh -q test`)
 2. Frontend build passed (`npm run build`)
 3. Smoke E2E script passed (`./scripts/smoke_e2e.sh`)
 

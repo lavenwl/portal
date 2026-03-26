@@ -2,7 +2,7 @@
 
 ## 1. Pre-Deploy Checklist
 
-1. Backend tests pass: `cd backend && mvn -q test`
+1. Backend tests pass: `bash ./scripts/backend.sh -q test`
 2. Frontend build passes: `cd frontend && npm run build`
 3. Set production `JWT_SECRET`
 4. Set production database credentials
@@ -10,7 +10,7 @@
 
 ## 2. Build Artifacts
 
-1. Backend jar: `cd backend && mvn -q package`
+1. Backend jar: `bash ./scripts/backend.sh -q package`
 2. Frontend assets: `cd frontend && npm run build` (output in `frontend/dist`)
 
 ## 3. Release Steps
